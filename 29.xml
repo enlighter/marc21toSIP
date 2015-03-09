@@ -1,0 +1,144 @@
+<collection>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Stanford White [electronic resource] / by Charles C. Baldwin.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Baldwin, Charles C. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Science (General).</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">Q1-390</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">50 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-1-4684-6222-7</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">The Point-Source Model with Coefficient of Opacity k = k 1Ï±T -3.5 [electronic resource] / by Bengt StrÃ¶mgren.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Strömgren, Bengt. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Physics.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">QB460-466</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">523.01 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">II, 25 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-3-662-40269-6</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Publikationer og mindre Meddelelser fra Københavns Observatorium ; 77</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Publikationer og mindre Meddelelser fra Københavns Observatorium ; 77</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Colonial Policy [electronic resource] : Volume II The Dutch East Indies / by A. D. A. Kat Angelino.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Angelino, A. D. A. Kat. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Humanities.</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">001.3 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-011-8904-0</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Flemish Writers Translated (1830â€“1931) [electronic resource] : Bibliographical Essay / by Prosper Arents.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Arents, Prosper. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Linguistics.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">P1-1091</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">410 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">VIII, 191 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-015-0636-6</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Contributions to the Genetics of PISUM [electronic resource] / by H. Haan.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Haan, H. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Life sciences.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Plant breeding.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">QH433</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">581.35 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-015-3277-8</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Annales Bryologici [electronic resource] : A Yearbook Devoted to the Study of Mosses and Hepatics / edited by Fr. Verdoorn.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Verdoorn, Fr. editor.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Life sciences.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">QH301-705</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">570 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-015-3512-0</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">The Declining Birth Rate in Rotterdam [electronic resource] : A Statistical Analysis of the Drop in the Number of Children in 24644 Rotterdam Families During the Last 50 Years / by J. Sanders.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Sanders, J. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Medicine.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">R1</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">610 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">XI, 179 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-015-7559-1</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">The Age of Pithecanthropus [electronic resource] / by L. J. C. Es.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Es, L. J. C. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Social sciences.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Paleontology.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Anthropology.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">HM545</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">301 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">XII, 143 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-017-5974-8</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Minorities and Boundaries [electronic resource] : A Series of Papers / edited by Otto Edward Lessing.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Lessing, Otto Edward. editor.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Humanities.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">History.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">D1-DX301</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">900 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">VII, 154 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-017-6091-1</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">Internal-Combustion Locomotives and Motor Coaches [electronic resource] / by I. Franco, P. Labryn.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Franco, I. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Labryn, P. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Physics.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">QC1-QC999</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">621 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">249 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-017-6155-0</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+</dublin_core>
+</collection>
