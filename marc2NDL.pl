@@ -28,6 +28,7 @@ while (my $blob = <>)
 		$qualifier = lc $qualifier;
 		$scheme = lc $scheme;
 
+		#remove date entry from records
 		next if $element eq 'date';
 
 		# escape reserved characters
@@ -55,7 +56,12 @@ while (my $blob = <>)
 		if ($element eq 'format') 
 		{
 			$element = 'description';
-			$qualifier = '';
+			$qualifier = 'none';
+		}
+		if ($element eq 'type') 
+		{
+			#$element = 'description';
+			$qualifier = 'none';
 		}
 		if ($element eq 'subject' && $qualifier eq 'lcsh')
 		{
@@ -63,15 +69,15 @@ while (my $blob = <>)
 		}
 		if ($element eq 'language') 
 		{
-			if ($scheme eq 'iso 639-2') 
+			if ($qualifier eq 'iso 639-2') 
 			{
 				$qualifier = 'iso';
-				$scheme = '';
+				#$scheme = '';
 			} 
 			else 
 			{
 				$element = 'description';
-				$qualifier = '';
+				$qualifier = 'none';
 			}
 		}
 		if ($qualifier eq 'ispartof') 
