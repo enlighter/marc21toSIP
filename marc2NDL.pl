@@ -29,6 +29,13 @@ while (my $blob = <>)
 		$content =~ s/>/&gt;/gs;
 
 		# munge attributes for DSpace compatibility
+
+		if( not ($qualifier))	#check if qualifier is empty
+		{
+			$qualifier = $scheme;	#if empty reassign scheme to qualifier
+		}
+		$scheme = '';		# delete all scheme
+
 		if ($element eq 'creator') 
 		{
 			$element = 'contributor';
