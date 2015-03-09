@@ -46,12 +46,7 @@ while (my $blob = <>)
 			$element = 'description';
 			$qualifier = '';
 		}
-		if ($element eq 'Subject' && $scheme eq 'DDC') 
-		{
-			$element = 'subject';
-			$qualifier = 'ddc';
-			$scheme = '';
-		}
+		
 		if ($element eq 'language') 
 		{
 			if ($scheme eq 'iso 639-2') 
