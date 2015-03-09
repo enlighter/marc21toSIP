@@ -1,0 +1,20 @@
+<collection>
+<dublin_core>
+ <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+ <dcvalue element="title" qualifier="none" language="en">The Linguistic Situation in the Islands of Yapen, Kurudu, Nau and Miosnum, New Guinea [electronic resource] / by J. C. Anceaux.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">Anceaux, J. C. author.</dcvalue>
+ <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Linguistics.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">South Asian Languages.</dcvalue>
+ <dcvalue element="subject" qualifier="none" language="en">Comparative linguistics.</dcvalue>
+ <dcvalue element="subject" qualifier="lcc" language="en">P1-1091</dcvalue>
+ <dcvalue element="subject" qualifier="ddc" language="en">490 23</dcvalue>
+ <dcvalue element="type" qualifier="none" language="en">Text</dcvalue>
+ <dcvalue element="description" qualifier="none" language="en">VII, 166 p.</dcvalue>
+ <dcvalue element="identifier" qualifier="uri" language="en">http://dx.doi.org/10.1007/978-94-017-4762-2</dcvalue>
+ <dcvalue element="language" qualifier="iso" language="en">eng</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Springer eBooks</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde</dcvalue>
+ <dcvalue element="relation" qualifier="ispartofseries" language="en">Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde</dcvalue>
+</dublin_core>
+</collection>

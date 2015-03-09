@@ -10,6 +10,11 @@ while (my $blob = <>)
 { # suck in one MARC record at a time
 	print qq|<dublin_core>\n|;
 
+	#set publisher as Springer
+	printf qq| <dcvalue element="%s"|, 'contributor';
+	printf qq| qualifier="%s"|, 'publisher';
+	printf qq| language="en">%s</dcvalue>\n|, 'Springer';
+
 	# convert the MARC to DC
 	my $marc = MARC::Record->new_from_usmarc( $blob );
 	my $crosswalk = MARC::Crosswalk::DublinCore->new( qualified => 1 );
