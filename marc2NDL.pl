@@ -28,6 +28,8 @@ while (my $blob = <>)
 		$qualifier = lc $qualifier;
 		$scheme = lc $scheme;
 
+		next if $element eq 'date';
+
 		# escape reserved characters
 		$content =~ s/&/&amp;/gs;
 		$content =~ s/</&lt;/gs;
