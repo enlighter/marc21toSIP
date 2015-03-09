@@ -23,12 +23,21 @@ while (my $blob = <>)
 		my $scheme = $_->scheme;
 		my $content = $_->content;
 
+		#convert all strings except content to lower case
+		$element = lc $element;
+		$qualifier = lc $qualifier;
+		$scheme = lc $scheme;
+
 		# escape reserved characters
 		$content =~ s/&/&amp;/gs;
 		$content =~ s/</&lt;/gs;
 		$content =~ s/>/&gt;/gs;
 
 		# munge attributes for DSpace compatibility
+		if( not ($scheme))		#check if scheme is empty
+		{
+			$scheme = 'none';	#default qualifier 'none'
+		}
 
 		if( not ($qualifier))	#check if qualifier is empty
 		{
@@ -46,7 +55,10 @@ while (my $blob = <>)
 			$element = 'description';
 			$qualifier = '';
 		}
-		
+		if ($element eq 'subject' && $qualifier eq 'lcsh')
+		{
+			$qualifier = 'none';
+		}
 		if ($element eq 'language') 
 		{
 			if ($scheme eq 'iso 639-2') 
