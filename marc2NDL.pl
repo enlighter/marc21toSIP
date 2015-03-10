@@ -15,36 +15,7 @@ my $element = $_->name;
 my $qualifier = $_->qualifier;
 my $scheme = $_->scheme;
 my $content = $_->content;
-# escape reserved characters
-$content =~ s/&/&amp;/gs;
-$content =~ s/</&lt;/gs;
-$content =~ s/>/&gt;/gs;
-# munge attributes for DSpace compatibility
-if ($element eq 'creator') {
-$element = 'contributor';
-$qualifier = 'author';
-}
-if ($element eq 'format') {
-$element = 'description';
-$qualifier = '';
-}
-if ($element eq 'Subject' && $scheme eq 'DDC') {
-$element = 'subject';
-$qualifier = 'ddc';
-$scheme = '';
-}
-if ($element eq 'language') {
-if ($scheme eq 'iso 639-2') {
-$qualifier = 'iso';
-$scheme = '';
-} else {
-$element = 'description';
-$qualifier = '';
-}
-}
-if ($qualifier eq 'ispartof') {
-$qualifier = 'ispartofseries';
-}
+
 printf qq| <dcvalue element="%s"|, $element;
 printf qq| qualifier="%s"|, $qualifier if $qualifier;
 printf qq| scheme="%s"|, $scheme if $scheme;
