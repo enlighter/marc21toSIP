@@ -8,7 +8,7 @@ $/ = chr(29); # MARC record separator
 print qq|<collection>\n|;
 while (my $blob = <>) 
 { # suck in one MARC record at a time
-	print qq|<dublin_core>\n|;
+	print qq|<dublin_core schema="dc">\n|;
 
 	#set publisher as Springer
 	printf qq| <dcvalue element="%s"|, 'contributor';
