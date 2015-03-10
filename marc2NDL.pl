@@ -11,8 +11,8 @@ while (my $blob = <>)
 	print qq|<dublin_core schema="dc">\n|;
 
 	#set publisher as Springer
-	printf qq| <dcvalue element="%s"|, 'contributor';
-	printf qq| qualifier="%s"|, 'publisher';
+	printf qq| <dcvalue element="%s"|, 'publisher';
+	printf qq| qualifier="%s"|, 'none';
 	printf qq| language="en">%s</dcvalue>\n|, 'Springer';
 
 	# convert the MARC to DC
