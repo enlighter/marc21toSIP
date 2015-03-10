@@ -3,10 +3,10 @@ use XML::Simple;
 use Data::Dumper;
 
 # create object
-$xml = new XML::Simple;
+$xml = new XML::Simple ( KeyAttr=>'id' );
 
 # read XML file
 $data = $xml->XMLin("ddcE.xml");
 
 # print output
-print Dumper($data->{id});
+print Dumper($data->{'isComposedBy'}->{'node'}->{'6000'});
