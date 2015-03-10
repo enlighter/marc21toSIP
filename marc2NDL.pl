@@ -20,6 +20,20 @@ while (my $blob = <>)
 	my $crosswalk = MARC::Crosswalk::DublinCore->new( qualified => 1 );
 	my $dc = $crosswalk->as_dublincore( $marc );
 
+	## This is the code snippet for retrieving table fo contents. Put them properly in the actual code#######
+	## TOC values will go into 'dc.description.tableofcontents' fields ######################################
+    my @toc = $marc->field('505');
+    foreach my $toc (@toc)
+    {
+        if (defined($toc->subfield('a')))
+            {
+                printf qq| <dcvalue element="%s"|, 'description';
+                printf qq| qualifier="%s"|, 'tableofcontents';
+                printf qq| language="en">%s</dcvalue>\n|, $toc->subfield('a');
+            }
+    }
+    ###################### TOC code snippet ###################
+
 	# output the DC as XML
 	for( $dc->elements ) 
 	{
