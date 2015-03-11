@@ -2,9 +2,12 @@
 
 use MARC::Crosswalk::DublinCore;
 use MARC::File::USMARC;
+#use Encoding::FixLatin qw(fix_latin);
+use Encode qw(decode encode);
 
 $/ = chr(29); # MARC record separator
 
+print qq|<?xml version="1.0" encoding="utf-8" standalone="no"?>|;
 print qq|<collection>\n|;
 while (my $blob = <>) 
 { # suck in one MARC record at a time
@@ -29,7 +32,7 @@ while (my $blob = <>)
             {
                 printf qq| <dcvalue element="%s"|, 'description';
                 printf qq| qualifier="%s"|, 'tableofcontents';
-                printf qq| language="en">%s</dcvalue>\n|, $toc->subfield('a');
+                printf qq| language="en">%s</dcvalue>\n|, $toc->subfield('a');#decode("iso-8859-16", $toc->subfield('a') );
             }
     }
     ###################### TOC code snippet ###################
@@ -40,7 +43,7 @@ while (my $blob = <>)
 		my $element = $_->name;
 		my $qualifier = $_->qualifier;
 		my $scheme = $_->scheme;
-		my $content = $_->content;
+		my $content = decode("iso-8859-16", $_->content);
 
 		#convert all strings except content to lower case
 		$element = lc $element;
@@ -51,9 +54,11 @@ while (my $blob = <>)
 		next if $element eq 'date';
 
 		# escape reserved characters
+		utf8::upgrade($content);
 		$content =~ s/&/&amp;/gs;
 		$content =~ s/</&lt;/gs;
 		$content =~ s/>/&gt;/gs;
+#		$content = fix_latin($content); #convert diff encodings to utf-8
 
 		# munge attributes for DSpace compatibility
 		if( not ($scheme))		#check if scheme is empty
