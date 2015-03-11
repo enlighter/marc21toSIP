@@ -5,6 +5,10 @@ use MARC::File::USMARC;
 #use Encoding::FixLatin qw(fix_latin);
 use Data::Dumper;
 use Encode qw(is_utf8 decode encode);
+use utf8;
+
+binmode STDIN, ':encoding(iso-8859-16)';
+binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
 
 $/ = chr(29); # MARC record separator
 
@@ -28,11 +32,16 @@ while (my $blob = <>)
 	## TOC values will go into 'dc.description.tableofcontents' fields ######################################
     my @toc = $marc->field('505');
 
+=head1
     $size = @toc;
     print Dumper(@toc);
     print "Number of elements is $size \n";
-    print "Is this utf8: ",is_utf8($toc[0]->subfield('a')) ? "Yes" : "No", "\n";
-    print "1st subfield a in array: ", $toc[0]->subfield('a'), "\n";
+    if( defined($toc[0]->subfield('a') ) )
+    {
+    	print "Is this utf8: ", utf8::is_utf8($toc[0]->subfield('a')) ? "Yes" : "No", "\n";
+    	print "1st subfield a in array: ", $toc[0]->subfield('a'), "\n";
+    }
+=cut
 
     foreach my $toc (@toc)
     {
@@ -51,7 +60,7 @@ while (my $blob = <>)
 		my $element = $_->name;
 		my $qualifier = $_->qualifier;
 		my $scheme = $_->scheme;
-		my $content = decode("iso-8859-16", $_->content);
+		my $content = $_->content;
 
 		#convert all strings except content to lower case
 		$element = lc $element;
