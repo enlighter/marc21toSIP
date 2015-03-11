@@ -37,16 +37,14 @@ while (<>)
 
 	print DC $_;
 	close DC;
-	# assuming we have a file ...
-	if ($path) 
-	{
+	
 		# ... create the contents file ...
 		open OUT, ">import/$id/contents"
 		or die "Cannot open contents for $id, $!\n";
-		print OUT "$id.pdf";
+		print OUT "";
 		close OUT;
 		# ... and create a symbolic link to the actual file
 
-		symlink "/scratch/dspace/import/theses/$path/$id.pdf", "import/$id/$id.pdf";
-	}
+		#symlink "/scratch/dspace/import/theses/$path/$id.pdf", "import/$id/$id.pdf";
+	
 }
