@@ -2,17 +2,18 @@
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_is_control_field' => 0,
-                 '_ind2' => ' ',
                  '_ind1' => '0',
-                 '_warnings' => [],
-                 '_tag' => '505',
                  '_subfields' => [
                                    'a',
                                    'Prestudy Planning -- The Evolution of Protections for Research Participants -- Governing Principles -- Clinical Trials -- Recruitment -- Issues Arising during the Study -- Confidentiality -- Potential Conflicts -- Scientific Misconduct -- Following the Study -- Participants and Records -- Publication and Dissemination of Research Results -- New Roles for the HIV Researcher -- An Overview of the Legal System -- The HIV Researcher as an Expert Witness -- The HIV Researcher and Legislative Advocacy -- The HIV Researcher in the Regulatory Arena Conclusion.'
-                                 ]
+                                 ],
+                 '_is_control_field' => 0,
+                 '_tag' => '505',
+                 '_warnings' => [],
+                 '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: Prestudy Planning -- The Evolution of Protections for Research Participants -- Governing Principles -- Clinical Trials -- Recruitment -- Issues Arising during the Study -- Confidentiality -- Potential Conflicts -- Scientific Misconduct -- Following the Study -- Participants and Records -- Publication and Dissemination of Research Results -- New Roles for the HIV Researcher -- An Overview of the Legal System -- The HIV Researcher as an Expert Witness -- The HIV Researcher and Legislative Advocacy -- The HIV Researcher in the Regulatory Arena Conclusion.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Prestudy Planning -- The Evolution of Protections for Research Participants -- Governing Principles -- Clinical Trials -- Recruitment -- Issues Arising during the Study -- Confidentiality -- Potential Conflicts -- Scientific Misconduct -- Following the Study -- Participants and Records -- Publication and Dissemination of Research Results -- New Roles for the HIV Researcher -- An Overview of the Legal System -- The HIV Researcher as an Expert Witness -- The HIV Researcher and Legislative Advocacy -- The HIV Researcher in the Regulatory Arena Conclusion.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Legal and Ethical Aspects of HIV-Related Research [electronic resource] / by Sana Loue.</dcvalue>
@@ -34,17 +35,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_tag' => '505',
-                 '_warnings' => [],
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    "Historical Introduction -- Theoretical Considerations -- Fallibility and the Problem of Blameworthiness in Medicine -- The Ongoing Dialectic between Autonomy and Responsibility in a Pluralist World -- Ethical Problems Approaches and Alternatives -- Patients, Society, and Healthcare Professionals -- The AIDS Paradigm -- Organ Donation -- Problems in the Care of the Terminally Ill -- Problems at the Beginning of Life -- Problems of Macroallocation -- \x{201c}Solving\x{201d} Ethical Problems."
                                  ],
-                 '_ind1' => '0',
                  '_is_control_field' => 0,
+                 '_warnings' => [],
+                 '_tag' => '505',
                  '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: Yes
 1st subfield a in array: Historical Introduction -- Theoretical Considerations -- Fallibility and the Problem of Blameworthiness in Medicine -- The Ongoing Dialectic between Autonomy and Responsibility in a Pluralist World -- Ethical Problems Approaches and Alternatives -- Patients, Society, and Healthcare Professionals -- The AIDS Paradigm -- Organ Donation -- Problems in the Care of the Terminally Ill -- Problems at the Beginning of Life -- Problems of Macroallocation -- “Solving” Ethical Problems.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Historical Introduction -- Theoretical Considerations -- Fallibility and the Problem of Blameworthiness in Medicine -- The Ongoing Dialectic between Autonomy and Responsibility in a Pluralist World -- Ethical Problems Approaches and Alternatives -- Patients, Society, and Healthcare Professionals -- The AIDS Paradigm -- Organ Donation -- Problems in the Care of the Terminally Ill -- Problems at the Beginning of Life -- Problems of Macroallocation -- “Solving” Ethical Problems.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Textbook of Healthcare Ethics [electronic resource] / by Erich H. Loewy.</dcvalue>
@@ -67,17 +69,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_warnings' => [],
-                 '_tag' => '505',
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    'Protein Delivery from Biodegradable Microspheres -- Degradable Controlled Release Systems Useful for Protein Delivery -- Delivery of Proteins from a Controlled Release Injectable Implant -- Protein Delivery from Nondegradable Polymer Matrices -- Diffusion-Controlled Delivery of Proteins from Hydrogels and Other Hydrophilic Systems -- Poly(ethyleneglycol)-Coated Nanospheres: Potential Carriers for Intravenous Drug Administration -- Multiple Emulsions for the Delivery of Proteins -- Transdermal Peptide Delivery Using Electroporation -- Protein Delivery with Infusion Pumps -- Oral Delivery of Microencapsulated Proteins -- Controlled Delivery of Somatotropins -- Insulin Iontophoresis -- Insulin Formulation and Delivery.'
                                  ],
-                 '_ind1' => '0',
+                 '_warnings' => [],
+                 '_tag' => '505',
                  '_is_control_field' => 0,
                  '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: Protein Delivery from Biodegradable Microspheres -- Degradable Controlled Release Systems Useful for Protein Delivery -- Delivery of Proteins from a Controlled Release Injectable Implant -- Protein Delivery from Nondegradable Polymer Matrices -- Diffusion-Controlled Delivery of Proteins from Hydrogels and Other Hydrophilic Systems -- Poly(ethyleneglycol)-Coated Nanospheres: Potential Carriers for Intravenous Drug Administration -- Multiple Emulsions for the Delivery of Proteins -- Transdermal Peptide Delivery Using Electroporation -- Protein Delivery with Infusion Pumps -- Oral Delivery of Microencapsulated Proteins -- Controlled Delivery of Somatotropins -- Insulin Iontophoresis -- Insulin Formulation and Delivery.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Protein Delivery from Biodegradable Microspheres -- Degradable Controlled Release Systems Useful for Protein Delivery -- Delivery of Proteins from a Controlled Release Injectable Implant -- Protein Delivery from Nondegradable Polymer Matrices -- Diffusion-Controlled Delivery of Proteins from Hydrogels and Other Hydrophilic Systems -- Poly(ethyleneglycol)-Coated Nanospheres: Potential Carriers for Intravenous Drug Administration -- Multiple Emulsions for the Delivery of Proteins -- Transdermal Peptide Delivery Using Electroporation -- Protein Delivery with Infusion Pumps -- Oral Delivery of Microencapsulated Proteins -- Controlled Delivery of Somatotropins -- Insulin Iontophoresis -- Insulin Formulation and Delivery.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Protein Delivery [electronic resource] : Physical Systems / edited by Lynda M. Sanders, R. Wayne Hendren.</dcvalue>
@@ -101,17 +104,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    'Molecular Rickettsiology -- Immunity to Rickettsiae (Redux) -- Cytokines Influencing Infections by Rickettsia Species -- Global Genetic Diversity of Spotted Fever Group Rickettsiae -- Surface Components of the Spotted Fever Group Rickettsiae -- Oxidative Cell Injury and Spotted Fever Group Rickettsiae -- Intracellular Development of Coxiella burnetii -- The Identification of Virulence Factors of Coxiella burnetti -- Human Granulocytic Ehrlichiosis -- The Immune Response to Ehrlichia chaffeensis -- Clinical Aspects of Bartonella Infections -- Virulence Determinants of Bartonella bacilliformis -- Stimulation of Angiogenesis and Protection from Oxidant Damage.'
                                  ],
                  '_tag' => '505',
                  '_warnings' => [],
-                 '_ind2' => ' ',
                  '_is_control_field' => 0,
-                 '_ind1' => '0'
+                 '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: Molecular Rickettsiology -- Immunity to Rickettsiae (Redux) -- Cytokines Influencing Infections by Rickettsia Species -- Global Genetic Diversity of Spotted Fever Group Rickettsiae -- Surface Components of the Spotted Fever Group Rickettsiae -- Oxidative Cell Injury and Spotted Fever Group Rickettsiae -- Intracellular Development of Coxiella burnetii -- The Identification of Virulence Factors of Coxiella burnetti -- Human Granulocytic Ehrlichiosis -- The Immune Response to Ehrlichia chaffeensis -- Clinical Aspects of Bartonella Infections -- Virulence Determinants of Bartonella bacilliformis -- Stimulation of Angiogenesis and Protection from Oxidant Damage.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Molecular Rickettsiology -- Immunity to Rickettsiae (Redux) -- Cytokines Influencing Infections by Rickettsia Species -- Global Genetic Diversity of Spotted Fever Group Rickettsiae -- Surface Components of the Spotted Fever Group Rickettsiae -- Oxidative Cell Injury and Spotted Fever Group Rickettsiae -- Intracellular Development of Coxiella burnetii -- The Identification of Virulence Factors of Coxiella burnetti -- Human Granulocytic Ehrlichiosis -- The Immune Response to Ehrlichia chaffeensis -- Clinical Aspects of Bartonella Infections -- Virulence Determinants of Bartonella bacilliformis -- Stimulation of Angiogenesis and Protection from Oxidant Damage.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Rickettsial Infection and Immunity [electronic resource] / edited by Burt Anderson, Herman Friedman, Mauro Bendinelli.</dcvalue>
@@ -135,17 +139,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_tag' => '505',
-                 '_warnings' => [],
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    "From the Breath of Life to Reactive Oxygen Species -- Chemistry of Reactive Oxygen Species -- General Biochemistry and Molecular Biology -- The Steady-State Concentrations of Oxygen Radicals in Mitochondria -- The Role of Transition Metal Ions in Free Radical-Mediated Damage -- Biochemistry of Redox Signaling in the Activation of Oxidative Stress Genes -- Regulation of Mammalian Gene Expression by Reactive Oxygen Species -- Inflammatory Regulation of Manganese Superoxide Dismutase -- Antioxidant Protection and Ixygen Radical Signaling -- Nitrogen Reactive Species -- Nitric Oxide Synthase -- The Chemical Biology of Nitric Oxide -- Nitroxides as Protectors Against Oxidative Stress -- Environmental Pro- and Antioxidants -- Stratospheric Ozone and Its Effects on the Biosphere -- Ozone and Nitrogen Dioxide -- Dietary Antioxidants and Nutrition -- Internal Pro- and Antioxidants -- Xanthine Oxidase in Biology and Medicine -- Melatonin Antioxidative Protection by Electron Donation -- Ubiquinol an Endogenous Lipid-Soluble Antioxidant in Animal Tissues -- Specific Tissues -- Sources and Effects of Reactive Oxygen Species in Plants -- The Production and Use of Reactive Oxidants by Phagocytes -- Production and Effects of Reactive Oxygen Species by Spermatozoa -- Respiratory Burst Oxidase of Fertilization Peroxidative Mechanisms in Sea Urchin Eggs and Human Phagocytes -- Brain Chemiluminescence as an Indicator of Oxidative Stress -- Reactive Oxygen Species and Neuronal Function -- Pathological States and Aging -- Oxidative Stress and Parkinson\x{2019}s Disease -- Alzheimer\x{2019}s ?-Amyloid Peptide and Free Radical Oxidative Stress -- Oxidative Pathology in Amyotrophic Lateral Sclerosis -- Reactive Oxygen-Mediated Protein Oxidation in Aging and Disease -- Conclusion -- An Overview of Reactive Oxygen Species."
                                  ],
-                 '_ind1' => '0',
                  '_is_control_field' => 0,
+                 '_warnings' => [],
+                 '_tag' => '505',
                  '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: Yes
 1st subfield a in array: From the Breath of Life to Reactive Oxygen Species -- Chemistry of Reactive Oxygen Species -- General Biochemistry and Molecular Biology -- The Steady-State Concentrations of Oxygen Radicals in Mitochondria -- The Role of Transition Metal Ions in Free Radical-Mediated Damage -- Biochemistry of Redox Signaling in the Activation of Oxidative Stress Genes -- Regulation of Mammalian Gene Expression by Reactive Oxygen Species -- Inflammatory Regulation of Manganese Superoxide Dismutase -- Antioxidant Protection and Ixygen Radical Signaling -- Nitrogen Reactive Species -- Nitric Oxide Synthase -- The Chemical Biology of Nitric Oxide -- Nitroxides as Protectors Against Oxidative Stress -- Environmental Pro- and Antioxidants -- Stratospheric Ozone and Its Effects on the Biosphere -- Ozone and Nitrogen Dioxide -- Dietary Antioxidants and Nutrition -- Internal Pro- and Antioxidants -- Xanthine Oxidase in Biology and Medicine -- Melatonin Antioxidative Protection by Electron Donation -- Ubiquinol an Endogenous Lipid-Soluble Antioxidant in Animal Tissues -- Specific Tissues -- Sources and Effects of Reactive Oxygen Species in Plants -- The Production and Use of Reactive Oxidants by Phagocytes -- Production and Effects of Reactive Oxygen Species by Spermatozoa -- Respiratory Burst Oxidase of Fertilization Peroxidative Mechanisms in Sea Urchin Eggs and Human Phagocytes -- Brain Chemiluminescence as an Indicator of Oxidative Stress -- Reactive Oxygen Species and Neuronal Function -- Pathological States and Aging -- Oxidative Stress and Parkinson’s Disease -- Alzheimer’s ?-Amyloid Peptide and Free Radical Oxidative Stress -- Oxidative Pathology in Amyotrophic Lateral Sclerosis -- Reactive Oxygen-Mediated Protein Oxidation in Aging and Disease -- Conclusion -- An Overview of Reactive Oxygen Species.
  <dcvalue element="description" qualifier="tableofcontents" language="en">From the Breath of Life to Reactive Oxygen Species -- Chemistry of Reactive Oxygen Species -- General Biochemistry and Molecular Biology -- The Steady-State Concentrations of Oxygen Radicals in Mitochondria -- The Role of Transition Metal Ions in Free Radical-Mediated Damage -- Biochemistry of Redox Signaling in the Activation of Oxidative Stress Genes -- Regulation of Mammalian Gene Expression by Reactive Oxygen Species -- Inflammatory Regulation of Manganese Superoxide Dismutase -- Antioxidant Protection and Ixygen Radical Signaling -- Nitrogen Reactive Species -- Nitric Oxide Synthase -- The Chemical Biology of Nitric Oxide -- Nitroxides as Protectors Against Oxidative Stress -- Environmental Pro- and Antioxidants -- Stratospheric Ozone and Its Effects on the Biosphere -- Ozone and Nitrogen Dioxide -- Dietary Antioxidants and Nutrition -- Internal Pro- and Antioxidants -- Xanthine Oxidase in Biology and Medicine -- Melatonin Antioxidative Protection by Electron Donation -- Ubiquinol an Endogenous Lipid-Soluble Antioxidant in Animal Tissues -- Specific Tissues -- Sources and Effects of Reactive Oxygen Species in Plants -- The Production and Use of Reactive Oxidants by Phagocytes -- Production and Effects of Reactive Oxygen Species by Spermatozoa -- Respiratory Burst Oxidase of Fertilization Peroxidative Mechanisms in Sea Urchin Eggs and Human Phagocytes -- Brain Chemiluminescence as an Indicator of Oxidative Stress -- Reactive Oxygen Species and Neuronal Function -- Pathological States and Aging -- Oxidative Stress and Parkinson’s Disease -- Alzheimer’s ?-Amyloid Peptide and Free Radical Oxidative Stress -- Oxidative Pathology in Amyotrophic Lateral Sclerosis -- Reactive Oxygen-Mediated Protein Oxidation in Aging and Disease -- Conclusion -- An Overview of Reactive Oxygen Species.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Reactive Oxygen Species in Biological Systems [electronic resource] : An Interdisciplinary Approach / by Daniel L. Gilbert, Carol A. Colton.</dcvalue>
@@ -170,17 +175,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_warnings' => [],
-                 '_tag' => '505',
                  '_subfields' => [
                                    'a',
                                    'Genetically Engineered Cells in Diagnostic Virology -- Use of Synthetic Peptides in Microbial Diagnostics -- Flow Cytometric Analysis of Virally Infected Cells -- Diagnostic Significance of Antibodies in Oral Secretions -- Genetic Amplification Techniques for Diagnosing Infectious Diseases -- Ligase Chain Reaction for Detecting Sexually Transmitted Diseases -- Applications of the Polymerase Chain Reaction -- Identifying Novel Bacteria Using a Broad-Range Polymerase Chain Reaction -- The Molecular Epidemiology of Nosocomial Infection -- Tyramide Signal Amplification -- Ribotyping as a Tool for Molecular Epidemiology -- Utility of PCR in Situ for Detecting Viral Infections.'
                                  ],
                  '_ind1' => '0',
-                 '_is_control_field' => 0,
-                 '_ind2' => ' '
+                 '_ind2' => ' ',
+                 '_tag' => '505',
+                 '_warnings' => [],
+                 '_is_control_field' => 0
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: Genetically Engineered Cells in Diagnostic Virology -- Use of Synthetic Peptides in Microbial Diagnostics -- Flow Cytometric Analysis of Virally Infected Cells -- Diagnostic Significance of Antibodies in Oral Secretions -- Genetic Amplification Techniques for Diagnosing Infectious Diseases -- Ligase Chain Reaction for Detecting Sexually Transmitted Diseases -- Applications of the Polymerase Chain Reaction -- Identifying Novel Bacteria Using a Broad-Range Polymerase Chain Reaction -- The Molecular Epidemiology of Nosocomial Infection -- Tyramide Signal Amplification -- Ribotyping as a Tool for Molecular Epidemiology -- Utility of PCR in Situ for Detecting Viral Infections.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Genetically Engineered Cells in Diagnostic Virology -- Use of Synthetic Peptides in Microbial Diagnostics -- Flow Cytometric Analysis of Virally Infected Cells -- Diagnostic Significance of Antibodies in Oral Secretions -- Genetic Amplification Techniques for Diagnosing Infectious Diseases -- Ligase Chain Reaction for Detecting Sexually Transmitted Diseases -- Applications of the Polymerase Chain Reaction -- Identifying Novel Bacteria Using a Broad-Range Polymerase Chain Reaction -- The Molecular Epidemiology of Nosocomial Infection -- Tyramide Signal Amplification -- Ribotyping as a Tool for Molecular Epidemiology -- Utility of PCR in Situ for Detecting Viral Infections.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Rapid Detection of Infectious Agents [electronic resource] / edited by Steven Specter, Mauro Bendinelli, Herman Friedman.</dcvalue>
@@ -204,17 +210,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
-                 '_ind1' => '0',
                  '_is_control_field' => 0,
-                 '_ind2' => ' ',
                  '_tag' => '505',
                  '_warnings' => [],
+                 '_ind2' => ' ',
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    "Evasion and Obstruction -- Immunopathology of Herpesvirus Infections -- HSV Gene Expression during Latent Infection and Reactivation -- T Cell Activation and Lymphokine Induction in Herpesvirus saimiri Immortalized Cells -- Kaposi\x{2019}s Sarcoma-Associated Herpesvirus (KSHV/HHV8) and the Etiology of KS -- Immunobiology of Murine Gamma Herpesvirus-68 -- EBV and B Cell Lymphomas -- Immune Responses to Epstein-Barr Viral Infection -- EBV Persistence in Vivo -- Epstein-Barr Virus Vaccines -- Inhibition of MHC Class I Function by Cytomegalovirus -- Cell-Mediated Immunity against Varicella-Zoster Virus -- Complement Control Proteins of Rhadinoviruses."
                                  ]
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: Yes
 1st subfield a in array: Evasion and Obstruction -- Immunopathology of Herpesvirus Infections -- HSV Gene Expression during Latent Infection and Reactivation -- T Cell Activation and Lymphokine Induction in Herpesvirus saimiri Immortalized Cells -- Kaposi’s Sarcoma-Associated Herpesvirus (KSHV/HHV8) and the Etiology of KS -- Immunobiology of Murine Gamma Herpesvirus-68 -- EBV and B Cell Lymphomas -- Immune Responses to Epstein-Barr Viral Infection -- EBV Persistence in Vivo -- Epstein-Barr Virus Vaccines -- Inhibition of MHC Class I Function by Cytomegalovirus -- Cell-Mediated Immunity against Varicella-Zoster Virus -- Complement Control Proteins of Rhadinoviruses.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Evasion and Obstruction -- Immunopathology of Herpesvirus Infections -- HSV Gene Expression during Latent Infection and Reactivation -- T Cell Activation and Lymphokine Induction in Herpesvirus saimiri Immortalized Cells -- Kaposi’s Sarcoma-Associated Herpesvirus (KSHV/HHV8) and the Etiology of KS -- Immunobiology of Murine Gamma Herpesvirus-68 -- EBV and B Cell Lymphomas -- Immune Responses to Epstein-Barr Viral Infection -- EBV Persistence in Vivo -- Epstein-Barr Virus Vaccines -- Inhibition of MHC Class I Function by Cytomegalovirus -- Cell-Mediated Immunity against Varicella-Zoster Virus -- Complement Control Proteins of Rhadinoviruses.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Herpesviruses and Immunity [electronic resource] / edited by Peter G. Medveczky, Herman Friedman, Mauro Bendinelli.</dcvalue>
@@ -242,16 +249,17 @@ Number of elements is 1
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
                  '_ind1' => '0',
-                 '_ind2' => ' ',
-                 '_is_control_field' => 0,
                  '_subfields' => [
                                    'a',
                                    'Immune Defenses against Intracellular Bacterial Infections -- Genetic Regulation of Host Responses to Salmonella typhimurium -- Host Resistance and Mycobacterium tuberculosis Infection -- The Influence of Adrenal Steroids on Macrophage and T-cell Function in Tuberculosis -- Mycobacterium leprae as an Opportunistic Pathogen -- Immunology and Immunopathology of Mycobacterial Infections -- Mycobacterium avium-Complex Infections and Immunodeficiency -- Pathogenesis of Legionella pneumophila Infection -- Immune Responses to Legionella -- The Infectious/Pathogenic Processes Driven by Listeria monocytogenes in Laboratory Mice -- Rhodococcus equi: Pathogenesis and Replication in Macrophages -- Bartonella Infections in the Immunocompromised Host -- Chlamydia trachomatis Infections -- Chlamydia Infection and Pneumonia -- Brucella Infections and Immunity -- Antibiotic Treatment of Infections with Intracellular Bacteria.'
                                  ],
+                 '_is_control_field' => 0,
+                 '_warnings' => [],
                  '_tag' => '505',
-                 '_warnings' => []
+                 '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: Immune Defenses against Intracellular Bacterial Infections -- Genetic Regulation of Host Responses to Salmonella typhimurium -- Host Resistance and Mycobacterium tuberculosis Infection -- The Influence of Adrenal Steroids on Macrophage and T-cell Function in Tuberculosis -- Mycobacterium leprae as an Opportunistic Pathogen -- Immunology and Immunopathology of Mycobacterial Infections -- Mycobacterium avium-Complex Infections and Immunodeficiency -- Pathogenesis of Legionella pneumophila Infection -- Immune Responses to Legionella -- The Infectious/Pathogenic Processes Driven by Listeria monocytogenes in Laboratory Mice -- Rhodococcus equi: Pathogenesis and Replication in Macrophages -- Bartonella Infections in the Immunocompromised Host -- Chlamydia trachomatis Infections -- Chlamydia Infection and Pneumonia -- Brucella Infections and Immunity -- Antibiotic Treatment of Infections with Intracellular Bacteria.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Immune Defenses against Intracellular Bacterial Infections -- Genetic Regulation of Host Responses to Salmonella typhimurium -- Host Resistance and Mycobacterium tuberculosis Infection -- The Influence of Adrenal Steroids on Macrophage and T-cell Function in Tuberculosis -- Mycobacterium leprae as an Opportunistic Pathogen -- Immunology and Immunopathology of Mycobacterial Infections -- Mycobacterium avium-Complex Infections and Immunodeficiency -- Pathogenesis of Legionella pneumophila Infection -- Immune Responses to Legionella -- The Infectious/Pathogenic Processes Driven by Listeria monocytogenes in Laboratory Mice -- Rhodococcus equi: Pathogenesis and Replication in Macrophages -- Bartonella Infections in the Immunocompromised Host -- Chlamydia trachomatis Infections -- Chlamydia Infection and Pneumonia -- Brucella Infections and Immunity -- Antibiotic Treatment of Infections with Intracellular Bacteria.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Opportunistic Intracellular Bacteria and Immunity [electronic resource] / by Lois J. Paradise, Herman Friedman, Mauro Bendinelli.</dcvalue>
@@ -277,17 +285,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    'to Immunotoxicology -- Innate Immunity -- Cells of the Immune System -- Immunogenicity and Antigenicity -- Antigen-Presenting Cells -- Antigen Presentation -- Surface Interactions and Intracellular Signaling -- B-Cell Activation -- Antibodies -- Immunological Memory -- Complement -- Phagocytosis and Intracellular Killing -- Immediate Hypersensitivity Reactions -- Autoimmunity -- Delayed Hypersensitivity Reactions -- Killer Cells -- Killer Cells and Viral Infections -- Transplantation -- The Kines -- Assessment of Biological Significance -- Risk Characterization -- References.'
                                  ],
+                 '_is_control_field' => 0,
                  '_tag' => '505',
                  '_warnings' => [],
-                 '_ind1' => '0',
-                 '_ind2' => ' ',
-                 '_is_control_field' => 0
+                 '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: No
 1st subfield a in array: to Immunotoxicology -- Innate Immunity -- Cells of the Immune System -- Immunogenicity and Antigenicity -- Antigen-Presenting Cells -- Antigen Presentation -- Surface Interactions and Intracellular Signaling -- B-Cell Activation -- Antibodies -- Immunological Memory -- Complement -- Phagocytosis and Intracellular Killing -- Immediate Hypersensitivity Reactions -- Autoimmunity -- Delayed Hypersensitivity Reactions -- Killer Cells -- Killer Cells and Viral Infections -- Transplantation -- The Kines -- Assessment of Biological Significance -- Risk Characterization -- References.
  <dcvalue element="description" qualifier="tableofcontents" language="en">to Immunotoxicology -- Innate Immunity -- Cells of the Immune System -- Immunogenicity and Antigenicity -- Antigen-Presenting Cells -- Antigen Presentation -- Surface Interactions and Intracellular Signaling -- B-Cell Activation -- Antibodies -- Immunological Memory -- Complement -- Phagocytosis and Intracellular Killing -- Immediate Hypersensitivity Reactions -- Autoimmunity -- Delayed Hypersensitivity Reactions -- Killer Cells -- Killer Cells and Viral Infections -- Transplantation -- The Kines -- Assessment of Biological Significance -- Risk Characterization -- References.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">Immunotoxicology and Risk Assessment [electronic resource] / by Dennis K. Flaherty.</dcvalue>
@@ -309,17 +318,18 @@ Number of elements is 1
 <dublin_core schema="dc">
  <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
 $VAR1 = bless( {
+                 '_ind1' => '0',
                  '_subfields' => [
                                    'a',
                                    "Broca\x{2019}s Lobe -- Papez\x{2019}s Circuit -- Maclean\x{2019}s Limbic System -- Nautha\x{2019}s Limbic Midbrain -- Heimer\x{2019}s Limbic Stricatum."
                                  ],
                  '_tag' => '505',
                  '_warnings' => [],
-                 '_ind1' => '0',
-                 '_ind2' => ' ',
-                 '_is_control_field' => 0
+                 '_is_control_field' => 0,
+                 '_ind2' => ' '
                }, 'MARC::Field' );
 Number of elements is 1 
+Is this utf8: Yes
 1st subfield a in array: Broca’s Lobe -- Papez’s Circuit -- Maclean’s Limbic System -- Nautha’s Limbic Midbrain -- Heimer’s Limbic Stricatum.
  <dcvalue element="description" qualifier="tableofcontents" language="en">Broca’s Lobe -- Papez’s Circuit -- Maclean’s Limbic System -- Nautha’s Limbic Midbrain -- Heimer’s Limbic Stricatum.</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">The Limbic Brain [electronic resource] / by Andrew Lautin.</dcvalue>

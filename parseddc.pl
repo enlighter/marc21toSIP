@@ -1,6 +1,7 @@
 # use module
 use XML::Simple;
 use Data::Dumper;
+use Encoding::FixLatin qw(fix_latin);
 
 # create object
 $xml = new XML::Simple ( KeyAttr=>'id' );
@@ -9,4 +10,4 @@ $xml = new XML::Simple ( KeyAttr=>'id' );
 $data = $xml->XMLin("ddcE.xml");
 
 # print output
-print Dumper($data->{'isComposedBy'}->{'node'}->{'6000'});
+print Dumper($data);

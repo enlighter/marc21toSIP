@@ -4,7 +4,7 @@ use MARC::Crosswalk::DublinCore;
 use MARC::File::USMARC;
 #use Encoding::FixLatin qw(fix_latin);
 use Data::Dumper;
-use Encode qw(decode encode);
+use Encode qw(is_utf8 decode encode);
 
 $/ = chr(29); # MARC record separator
 
@@ -31,6 +31,7 @@ while (my $blob = <>)
     $size = @toc;
     print Dumper(@toc);
     print "Number of elements is $size \n";
+    print "Is this utf8: ",is_utf8($toc[0]->subfield('a')) ? "Yes" : "No", "\n";
     print "1st subfield a in array: ", $toc[0]->subfield('a'), "\n";
 
     foreach my $toc (@toc)
