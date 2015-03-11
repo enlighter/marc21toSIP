@@ -1,6 +1,6 @@
-<collection>
-<dublin_core>
- <dcvalue element="contributor" qualifier="publisher" language="en">Springer</dcvalue>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><collection>
+<dublin_core schema="dc">
+ <dcvalue element="publisher" qualifier="none" language="en">Springer</dcvalue>
  <dcvalue element="title" qualifier="none" language="en">The Linguistic Situation in the Islands of Yapen, Kurudu, Nau and Miosnum, New Guinea [electronic resource] / by J. C. Anceaux.</dcvalue>
  <dcvalue element="contributor" qualifier="author" language="en">Anceaux, J. C. author.</dcvalue>
  <dcvalue element="contributor" qualifier="author" language="en">SpringerLink (Online service)</dcvalue>

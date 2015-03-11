@@ -3,6 +3,7 @@
 use MARC::Crosswalk::DublinCore;
 use MARC::File::USMARC;
 #use Encoding::FixLatin qw(fix_latin);
+use Data::Dumper;
 use Encode qw(decode encode);
 
 $/ = chr(29); # MARC record separator
@@ -26,6 +27,11 @@ while (my $blob = <>)
 	## This is the code snippet for retrieving table fo contents. Put them properly in the actual code#######
 	## TOC values will go into 'dc.description.tableofcontents' fields ######################################
     my @toc = $marc->field('505');
+
+    $size = @toc;
+    print Dumper(@toc);
+    print "Number of elements is $size \n";
+
     foreach my $toc (@toc)
     {
         if (defined($toc->subfield('a')))
