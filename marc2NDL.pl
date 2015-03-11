@@ -12,7 +12,7 @@ binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
 
 $/ = chr(29); # MARC record separator
 
-print qq|<?xml version="1.0" encoding="utf-8" standalone="no"?>|;
+print qq|<?xml version="1.0" encoding="utf-8" standalone="no"?>\n|;
 print qq|<collection>\n|;
 while (my $blob = <>) 
 { # suck in one MARC record at a time
@@ -124,6 +124,10 @@ while (my $blob = <>)
 		if ($qualifier eq 'ispartof') 
 		{
 			$qualifier = 'ispartofseries';
+		}
+		if ($qualifier eq 'hasformat')
+		{
+			$qualifier = 'none';
 		}
 
 		printf qq| <dcvalue element="%s"|, $element;
