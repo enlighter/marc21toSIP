@@ -31,6 +31,7 @@ while (my $blob = <>)
     $size = @toc;
     print Dumper(@toc);
     print "Number of elements is $size \n";
+    print "1st subfield a in array: ", $toc[0]->subfield('a'), "\n";
 
     foreach my $toc (@toc)
     {
