@@ -4,16 +4,20 @@ use MARC::Crosswalk::DublinCore;
 use MARC::File::USMARC;
 #use Encoding::FixLatin qw(fix_latin);
 use Data::Dumper;
-use Encode qw(is_utf8 decode encode);
+require Encode;
 use utf8;
 
-binmode STDIN, ':encoding(iso-8859-16)';
+#binmode STDIN, ':encoding(iso-8859-16)';
 binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
+
+#binmode DATA, ':encoding(iso-8859-16)';# default data stream
 
 $/ = chr(29); # MARC record separator
 
 print qq|<?xml version="1.0" encoding="utf-8" standalone="no"?>\n|;
 print qq|<collection>\n|;
+
+#binmode DATA, ':encoding(iso-8859-16)';
 while (my $blob = <>) 
 { # suck in one MARC record at a time
 	print qq|<dublin_core schema="dc">\n|;
@@ -33,6 +37,19 @@ while (my $blob = <>)
     my @toc = $marc->field('505');
 
 =head1
+    foreach my $temp (@toc)
+    {
+    	if (defined ($temp->subfield('a')) )
+    	{
+    		my $contents = $temp->subfield('a');
+    		$contents = Encode::decode( 'iso-8859-16', $contents );
+    		utf8::upgrade( $contents );
+    		print "Is this utf8: ", utf8::is_utf8($contents) ? "Yes" : "No", "\n";
+    	}
+    }
+=cut
+
+=head1
     $size = @toc;
     print Dumper(@toc);
     print "Number of elements is $size \n";
@@ -47,9 +64,13 @@ while (my $blob = <>)
     {
         if (defined($toc->subfield('a')))
             {
+            	my $contents = $toc->subfield('a');
+    			$contents = Encode::decode( 'iso-8859-16', $contents );
+    			utf8::upgrade( $contents );
                 printf qq| <dcvalue element="%s"|, 'description';
                 printf qq| qualifier="%s"|, 'tableofcontents';
-                printf qq| language="en">%s</dcvalue>\n|, $toc->subfield('a');#decode("iso-8859-16", $toc->subfield('a') );
+                binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
+                printf qq| language="en">%s</dcvalue>\n|, $contents;#decode("iso-8859-16", $toc->subfield('a') );
             }
     }
     ###################### TOC code snippet ###################
@@ -133,6 +154,7 @@ while (my $blob = <>)
 		printf qq| <dcvalue element="%s"|, $element;
 		printf qq| qualifier="%s"|, $qualifier if $qualifier;
 		printf qq| scheme="%s"|, $scheme if $scheme;
+		binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
 		printf qq| language="en">%s</dcvalue>\n|, $content;
 	}
 	print qq|</dublin_core>\n|;
