@@ -1,23 +1,33 @@
 #!/usr/local/bin/perl -w
 
+use warnings;
+use diagnostics;
+
 use MARC::Crosswalk::DublinCore;
 use MARC::File::USMARC;
 #use Encoding::FixLatin qw(fix_latin);
 use Data::Dumper;
 require Encode;
-use utf8;
+use utf8 qw(is_utf8,upgrade);
 
-#binmode STDIN, ':encoding(iso-8859-16)';
+$SIG{__DIE__} = sub {
+    open LOG, ">>Mainerror.log";
+    print LOG @_;
+    close LOG;
+    print STDERR @_;
+    exit 1;
+};
+
+sub main{
+
+binmode STDIN, ':encoding(iso-8859-16)';
 binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
-
-#binmode DATA, ':encoding(iso-8859-16)';# default data stream
 
 $/ = chr(29); # MARC record separator
 
 print qq|<?xml version="1.0" encoding="utf-8" standalone="no"?>\n|;
 print qq|<collection>\n|;
 
-#binmode DATA, ':encoding(iso-8859-16)';
 while (my $blob = <>) 
 { # suck in one MARC record at a time
 	print qq|<dublin_core schema="dc">\n|;
@@ -65,8 +75,13 @@ while (my $blob = <>)
         if (defined($toc->subfield('a')))
             {
             	my $contents = $toc->subfield('a');
+            	
     			$contents = Encode::decode( 'iso-8859-16', $contents );
     			utf8::upgrade( $contents );
+    			$contents =~ s/&/&amp;/gs;
+				$contents =~ s/</&lt;/gs;
+				$contents =~ s/>/&gt;/gs;
+				$contents = Encode::encode_utf8($contents);
                 printf qq| <dcvalue element="%s"|, 'description';
                 printf qq| qualifier="%s"|, 'tableofcontents';
                 binmode STDOUT, ':encoding(utf8)';	#encode all standard output to utf8
@@ -161,3 +176,6 @@ while (my $blob = <>)
 }
 print qq|</collection>\n|;
 exit; 
+}
+
+main();
